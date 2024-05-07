@@ -1,0 +1,32 @@
+.titulo {
+  margin-top: 1em;
+  line-height: 6vh;
+  padding-left: 3em;
+  user-select: none;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.video video {
+  width: 80%;
+  height: 65vh;
+  margin: 1em;
+}
+
+.descricao-content {
+  display: flex;
+  justify-content: center;
+}
+
+.descricao {
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 90%;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  padding: 1em;
+  background-color: #efefef;
+}

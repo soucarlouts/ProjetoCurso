@@ -8,7 +8,6 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { HomeComponent } from './componentes/pages/home/home.component';
 import { AulasComponent } from './componentes/pages/aulas/aulas.component';
 import { CardsComponent } from './componentes/cards/cards.component';
-import { AulaComponent } from './componentes/pages/aula/aula.component';
 import { VideoComponent } from './componentes/pages/video/video.component';
 
 @NgModule({
@@ -19,7 +18,6 @@ import { VideoComponent } from './componentes/pages/video/video.component';
     HomeComponent,
     AulasComponent,
     CardsComponent,
-    AulaComponent,
     VideoComponent
   ],
   imports: [

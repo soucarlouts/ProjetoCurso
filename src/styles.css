@@ -12,8 +12,8 @@
 }
 
 .container {
-  height: 83.3vh;
-  overflow: auto;
+  min-height: 83.3vh;
+
 }
 
 ul {
