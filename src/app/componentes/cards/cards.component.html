@@ -1,0 +1,12 @@
+<div class="card-container">
+  <div class="card" *ngFor="let curso of cursos">
+    <a href="">
+      <div class="image"></div>
+      <div class="content">
+        <span class="title"> Aula #{{ curso.id }} </span>
+        <p class="desc"> {{ curso.descricao }} </p>
+      </div>
+    </a>
+  </div>
+</div>
+
