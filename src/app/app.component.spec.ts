@@ -33,3 +33,7 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ProjetoCurso');
   });
 });
+function expect(app: any) {
+  throw new Error('Function not implemented.');
+}
+
