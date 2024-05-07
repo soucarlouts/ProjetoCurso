@@ -1,10 +1,10 @@
 <div class="card-container">
-  <div class="card" *ngFor="let curso of cursos">
-    <a href="">
+  <div class="card" *ngFor="let aula of aulas">
+    <a routerLink="/aulas/{{aula.id}}">
       <div class="image"></div>
       <div class="content">
-        <span class="title"> Aula #{{ curso.id }} </span>
-        <p class="desc"> {{ curso.descricao }} </p>
+        <span class="title"> Aula #{{ aula.id }} </span>
+        <p class="desc"> {{ aula.descricao }} </p>
       </div>
     </a>
   </div>
