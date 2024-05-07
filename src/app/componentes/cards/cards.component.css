@@ -24,6 +24,8 @@
 
 .card:hover {
   transform: scale(1.02);
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
 }
 
 .content {

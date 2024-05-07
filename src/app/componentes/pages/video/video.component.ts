@@ -7,6 +7,8 @@ import { AulasService } from "../../../services/aulas.service";
   templateUrl: './video.component.html',
   styleUrls: ['./video.component.css']
 })
+
+
 export class VideoComponent {
   aula!: any;
 
@@ -14,6 +16,7 @@ export class VideoComponent {
     private aulasService: AulasService,
     private route: ActivatedRoute,
   ) {}
+  
 
   ngOnInit() {
     const id = Number(this.route.snapshot.paramMap.get('id'))
