@@ -1,1 +1,14 @@
-<h1>{{aula.titulo}}</h1>
+<div class="titulo">
+  <h2>{{ aula.titulo }}</h2>
+</div>
+<div class="video">
+  <video controls>
+    <source src="./assets/video/{{ aula.video }}" type="video/mp4; codecs=avc1.42E01E, mp4a.40.2">
+  </video>
+</div>
+<div class="descricao-content">
+  <div class="descricao">
+    <h3>Descrição</h3>
+    {{ aula.descricao }}
+  </div>
+</div>

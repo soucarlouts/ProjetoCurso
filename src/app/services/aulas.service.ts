@@ -7,14 +7,14 @@ import {Observable, of} from "rxjs";
 export class AulasService {
 
   cursos = [
-    { id: 1, titulo: "Aula Numero 1", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
-    { id: 2, titulo: "Aula Numero 2", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
-    { id: 3, titulo: "Aula Numero 3", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
-    { id: 4, titulo: "Aula Numero 4", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
-    { id: 5, titulo: "Aula Numero 5", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
-    { id: 6, titulo: "Aula Numero 6", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
-    { id: 7, titulo: "Aula Numero 7", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
-    { id: 8, titulo: "Aula Numero 8", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
+    { id: 1, titulo: "Aula Numero 1",video: "RickAstley.mp4", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
+    { id: 2, titulo: "Aula Numero 2",video: "RickAstley.mp4", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
+    { id: 3, titulo: "Aula Numero 3",video: "RickAstley.mp4", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
+    { id: 4, titulo: "Aula Numero 4",video: "RickAstley.mp4", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
+    { id: 5, titulo: "Aula Numero 5",video: "RickAstley.mp4", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
+    { id: 6, titulo: "Aula Numero 6",video: "RickAstley.mp4", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
+    { id: 7, titulo: "Aula Numero 7",video: "RickAstley.mp4", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
+    { id: 8, titulo: "Aula Numero 8",video: "RickAstley.mp4", descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium" },
   ];
 
   constructor() { }
