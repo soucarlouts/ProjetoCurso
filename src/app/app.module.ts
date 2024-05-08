@@ -11,6 +11,7 @@ import { CardsComponent } from './componentes/cards/cards.component';
 import { VideoComponent } from './componentes/pages/video/video.component';
 import { LoginPageComponent } from './componentes/login-page/login-page.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule
   ],
   providers: [
     provideAnimationsAsync()
