@@ -1,0 +1,15 @@
+body{
+    padding: 15px;
+}
+
+.botao{
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+.botao:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.329);
+    scale: 105%;
+}

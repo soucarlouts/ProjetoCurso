@@ -9,9 +9,9 @@ import { HomeComponent } from './componentes/pages/home/home.component';
 import { AulasComponent } from './componentes/pages/aulas/aulas.component';
 import { CardsComponent } from './componentes/cards/cards.component';
 import { VideoComponent } from './componentes/pages/video/video.component';
-import { LoginPageComponent } from './componentes/login-page/login-page.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { MatButtonModule } from '@angular/material/button';
+import { LoginComponent } from './componentes/pages/login/login.component';
+import { ButtonModule } from 'primeng/button'
 
 @NgModule({
   declarations: [
@@ -22,12 +22,13 @@ import { MatButtonModule } from '@angular/material/button';
     AulasComponent,
     CardsComponent,
     VideoComponent,
-    LoginPageComponent
+    LoginComponent,
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatButtonModule
+    ButtonModule
   ],
   providers: [
     provideAnimationsAsync()
